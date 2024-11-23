@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>영현T의 웹사이트</title>
+    <!--CSS 스타일 파일 적용 부분-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!--한국어 폰트 NOTO SANS KOREAN-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+    <!--영어 폰트 MONTSERRAT-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+    <!--웹 폰트 부분-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
+</head>
+
+<body>
+    
+    <div class="frame"> <!--웹사이트 레이아웃 중 가장 큰 프레임 why? 마진 넣기 위해-->
+
+        <nav class="navigator">
+            <h3 class="site-name">YOUNGHYUN T LAND</h3>
+            <ul>
+                <li class="main-menu">WORK
+                    <ul class="sub-menu">
+                        <li><a id="submenu-1-1" href="#">서브메뉴 1-1</a></li>
+                        <li><a href="page1-2.html">서브메뉴 1-2</a></li>
+                        <li><a href="page1-3.html">서브메뉴 1-3</a></li>
+                    </ul>
+                </li>
+    
+                <li><a class="nav-menu" href="info.html">INFO</a></li>
+            </ul>
+        </nav>
+
+        <!-- 팝업 내용 -->
+        <div id="popup-content" style="display: none;">
+            <h2>새 창을 열어볼까요?</h2>
+            <p>확인을 누르면 새로운 창에 지도가 표시됩니다.</p>
+                <button id="confirm">확인</button>
+                <button id="cancel">취소</button>
+        </div>
+
+        
+        <!--대시보드부분-->
+        <div class="dashboard">
+           <h1 class="Korean--comment"> 안녕하세요! 제 이름은 <a class="sample"> 진우s</a> 입니다 </h1><br>
+           <h1> <a class="highlight type1">우주정복</a>을 <a class="highlight type2">꿈꾸고</a> 재미있는 <a class="highlight type3">웹 퍼블리셔</a>   <br>를  꿈꿉니다 </h1>
+        <br> <p class="english-comment"> sdfbdsfjldskflskhdzjhfdfhgjxgh </p>
+        </div>
+
+          <div class="slider">
+            <div class="slide">
+                <img src="고양1.jpg" alt="메인 이미지 1">
+            </div>
+            <div class="slide">
+                <img src="고양2.jpg" alt="메인 이미지 2">
+            </div>
+           <div class="slide">
+                <img src="고양3.jpg" alt="메인 이미지 3">
+           </div>
+       </div>
+       <script src="script.js"></script>
+
+        <!--프로필부분-->
+        <div class="profile-section">
+            <img id="profile-picture" src="profile.jpg">
+            <div class="introduction">
+                <h2>ABOUT ME</h2>
+                <p>"지구정복을 꿈꾸는 웹 개발자 선생님"<br>UX관점에서 제대로 된 서비스 기획을 하기 위해 Front-End를 여러분과 함께 공부 중입니다. <br> 여러분들만큼 디자인툴은 잘 못 다룹니다:) 디자인 감각은 있어요. :) 정보의 평등과 지식 공유의 중요성에 공감하고 있습니다. 무엇이든 시작하면 제대로 하는 성격! 같이 즐겁게, 열정적으로 진짜 뭔가를 만들어봐요! </p>
+                <br>
+                <h2>CAPABILITY</h2>
+                <p id="capability">Artificial Intelligence Data Analysis<br>UX Research<br>UI Prototyping<br>Publishing with html/CSS/JavaScript</p>
+            </div>
+        </div>
+
+        <h5 class="value-menu">MY VALUES</h5>
+
+        <div class="value-section">
+            
+            <div class="value">
+                <img class="value-icon" src="together.png">
+                <div class="value-intro">
+                    <h4 class="value-name">한글로 만들면 노토 산스</h4>
+                    <p class="value-exp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora sunt veritatis ea placeat. Iure, quam laudantium pariatur eligendi error eos voluptatum eaque maxime. Necessitatibus, nihil. Deleniti vitae perspiciatis est vel.</p>
+                </div>
+            </div>
+
+
+            <div class="value">
+                <img class="value-icon" src="partnership.png">
+                <div class="value-intro">
+                    <h4 class="value-name">RESPONSIBILITY</h4>
+                    <p class="value-exp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga labore ad, perspiciatis ipsa veritatis neque et nostrum porro iste magnam dolorum similique laborum doloribus in possimus eveniet dicta voluptatum est!</p>
+                </div>
+            </div>
+            <div class="value">
+                <img class="value-icon" src="dove.png">
+                <div class="value-intro">
+                    <h4 class="value-name">COMMUNICATION</h4>
+                    <p class="value-exp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas ipsa iste blanditiis enim. Vel minus perferendis praesentium architecto deserunt, ipsam dolore hic, ullam nulla aut magnam eveniet facilis explicabo odio.</p>
+                </div>
+            </div>
+        </div>
+
+        <!--푸터부분-->
+        <footer class="footer">
+            <h3 class="contact"> CONTACT ME </h3>
+            <div class="links">
+            <a class="instagram" href="https://www.instagram.com/ead6634/" target="instagram"> instagram </a>
+            </div>
+            <p> 사업자등록번호:000-000-0000, 개인정보 책임자 : 배진우 </p>
+        </footer>
+
+
+    </div>
+
+
+</body>
+</html>
